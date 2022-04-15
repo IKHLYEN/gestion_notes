@@ -13,6 +13,8 @@ public class Main {
 		mesEtudiants.add(e3);
 		mesEtudiants.add(e2);
 		mesEtudiants.add(e1);
+		System.out.println(mesEtudiants);
+		e1.filtrer(13);
 	}
 
 }

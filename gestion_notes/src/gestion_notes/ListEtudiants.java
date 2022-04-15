@@ -9,9 +9,9 @@ public class ListEtudiants extends ArrayList<Etudiant> {
 		return super.add(e);
 	}
 	
-	public List<Etudiant> filtrer(Condition c)
+	/*public List<Etudiant> filtrer(Condition c)
 	{
 		return ;
-	}
+	}*/
 
 }
