@@ -1,6 +1,5 @@
 package gestion_notes;
 
-import aiac.gi18.java.complexe.Complexe;
 
 public class Etudiant {
 	private int id;
@@ -22,5 +21,11 @@ public class Etudiant {
 		}
 	return	((Etudiant)obj).id==this.id ;
 	}
+	public boolean compareTo(Etudiant e) {
+			
+			if(this.note==e.note) return true;
+			return false;
+			
+		}
 
 }
